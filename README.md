@@ -21,7 +21,3 @@ REACT_APP_SUPABASE_KEY=tu-supabase-key
 ## Próximos pasos
 
 A medida que el proyecto avance, se irán añadiendo más funcionalidades. Por ahora, el enfoque principal es probar las capacidades de **Supabase Realtime** en una app sencilla.
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT.
