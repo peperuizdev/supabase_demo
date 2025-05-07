@@ -1,23 +1,58 @@
+# 📡 Supabase Realtime Demo
 
-# Proyecto de prueba con Supabase
+Este proyecto es una demo sencilla que integra **Supabase** en una aplicación **React**. La funcionalidad principal es la capacidad de **enviar y visualizar mensajes en tiempo real** usando la base de datos y las suscripciones de Supabase.
 
-Este proyecto es una pequeña prueba para integrar **Supabase** en una aplicación **React**. Por ahora, la funcionalidad principal es la capacidad de **enviar mensajes** en tiempo real. Es una forma sencilla de explorar cómo funciona la comunicación en tiempo real con Supabase.
+## ✨ Funcionalidades
 
-## Características
+* **Envío de mensajes en tiempo real**
+* **Almacenamiento de mensajes en Supabase**
+* **Frontend en React con estilos en TailwindCSS**
 
-- Envío de mensajes en tiempo real.
-- Base de datos para almacenar los mensajes.
-- Frontend en **React**, comunicándose con Supabase para manejar los datos.
+## 🚀 Instalación
 
-## Archivo `.env_example`
+1️⃣ Clona el repositorio e instala las dependencias:
 
-Para que el proyecto funcione correctamente, necesitas configurar las siguientes variables de entorno. Copia el archivo `.env_example` a `.env` y agrega tu URL y clave de Supabase:
-
+```bash
+git clone https://github.com/tu-usuario/supabase-demo.git
+cd supabase-demo
+npm install
 ```
+
+2️⃣ Configura las variables de entorno:
+Copia el archivo `.env_example` a `.env` y añade tus credenciales de Supabase.
+
+```bash
+cp .env_example .env
+```
+
+Rellena así:
+
+```env
 REACT_APP_SUPABASE_URL=tu-supabase-url
 REACT_APP_SUPABASE_KEY=tu-supabase-key
 ```
 
-## Próximos pasos
+3️⃣ Inicia la aplicación:
 
-A medida que el proyecto avance, se irán añadiendo más funcionalidades. Por ahora, el enfoque principal es probar las capacidades de **Supabase Realtime** en una app sencilla.
+```bash
+npm start
+```
+
+## 🛠️ Tecnologías utilizadas
+
+* [React](https://react.dev/)
+* [Supabase](https://supabase.com/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [@supabase/supabase-js](https://supabase.com/docs/reference/javascript)
+
+## 📌 Próximos pasos
+
+* Añadir eliminación de mensajes.
+* Mejorar los estilos y la interfaz.
+* Implementar autenticación de usuarios.
+* Permitir editar mensajes existentes.
+* Añadir un contador de mensajes en tiempo real.
+* Filtrar mensajes por usuario o fecha.
+* Explorar la integración de **storage** de Supabase para subir imágenes junto a los mensajes.
+* Probar el despliegue en **Vercel** o **Netlify**.
+* Optimizar la experiencia móvil con Tailwind.
